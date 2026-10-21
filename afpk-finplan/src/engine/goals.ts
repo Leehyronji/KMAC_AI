@@ -1,1 +1,0 @@
-export function monthsToGoal(current:number,target:number,monthly:number){if([current,target,monthly].some(v=>!Number.isFinite(v)||v<0))throw Error('목표 값은 0 이상이어야 합니다.');if(current>=target)return 0;if(monthly===0)return null;return Math.ceil((target-current)/monthly)}
