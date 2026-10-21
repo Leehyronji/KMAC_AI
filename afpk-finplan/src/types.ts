@@ -1,1 +1,0 @@
-export type Loan={balance:number;annualRate:number;payment:number};export type Profile={monthlyIncome:number;livingExpenses:number;assets:number;emergencyTarget:number;housingTarget:number;studentLoan:Loan;consumerLoan:Loan};export type Plan={id:string;name:string;extraDebt:number;emergencyMonthly:number;housingMonthly:number;note:string};
